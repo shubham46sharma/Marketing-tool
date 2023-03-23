@@ -1,0 +1,67 @@
+<html>
+
+<head>
+	<link rel="stylesheet" href="css/style.css">
+	<!-- jQuery library -->
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.7.7/xlsx.core.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" integrity="sha512-57oZ/vW8ANMjR/KQ6Be9v/+/h6bq9/l3f0Oc7vn6qMqyhvPd1cvKBRWWpzu0QoneImqr2SkmO4MSqU+RpHom3Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+	<script src="js/script.js"></script>
+	<script src="http://SortableJS.github.io/Sortable/Sortable.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<!-- Latest compiled JavaScript -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	 crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+	 crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+	 crossorigin="anonymous"></script>
+	
+</head>
+
+<body>
+	<div class="overlay_file_chooser">
+		<div style="margin: 30px auto; width: 400px;">
+		</div>
+		<div class="file">
+			<input type="file" class="custom-file-upload" id="files" name="files" size="30" />
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="page-header">
+			<div class="card-header">Marketing Tool</div>
+		</div>
+		<div class="AHP">
+			<div class="open-session-header text-center">AHP</div>
+			
+			<div class="row" id="AHP">
+				<br>
+			</div>
+		</div>
+		<div class="PBACO">
+			<div class="open-session-header text-center">PBACO</div>
+			<div class="row" id="PBACO">
+				<br>
+			</div>
+		</div>
+		<div class="NHNP">
+			<div class="open-session-header text-center">NHNP</div>
+			<div class="row" id="NHNP">
+				<br>
+			</div>
+		</div>
+		<div class="open-session">
+			<div class="open-session-header text-center">List of NPI from the uploaded File</div>
+			<div class="row" id="open-session"><br>
+			</div>
+		</div>
+	
+	</div>
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script> -->
+	<!-- <script src="http://SortableJS.github.io/Sortable/Sortable.js"></script> -->
+</body>
+
+</html>
